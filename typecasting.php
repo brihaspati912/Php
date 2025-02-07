@@ -10,5 +10,7 @@ $e = (array)$e;
 $f = 100;
 $f = (object)$f;
 
+$x = ["100"];
+$x = (string)$x; //it will give  error.
 
-var_dump($f);
+var_dump($x);
